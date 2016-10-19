@@ -11,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{523A36E2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margatsni.Tests", "Margatsni.Tests\Margatsni.Tests.csproj", "{B6C27522-71CA-4C90-8A6D-EBC5B8506D72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Margatsni.WebApi", "Margatsni.WebApi\Margatsni.WebApi.csproj", "{091E0F71-C472-45EB-8D01-8E0250098468}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{B6C27522-71CA-4C90-8A6D-EBC5B8506D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6C27522-71CA-4C90-8A6D-EBC5B8506D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6C27522-71CA-4C90-8A6D-EBC5B8506D72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091E0F71-C472-45EB-8D01-8E0250098468}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091E0F71-C472-45EB-8D01-8E0250098468}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091E0F71-C472-45EB-8D01-8E0250098468}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091E0F71-C472-45EB-8D01-8E0250098468}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
