@@ -5,11 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Margatsni.Model;
+using NLog;
+using Logger = Margatsni.Log.Logger;
 
 namespace Margatsni.DataLayer.Sql
 {
 	public class DataLayer : IDataLayer
 	{
+		private readonly NLog.Logger _instance = LogManager.GetCurrentClassLogger();
 		private readonly string _connectionString;
 
 		public DataLayer(string connectionString)
@@ -28,6 +31,7 @@ namespace Margatsni.DataLayer.Sql
 				using (var command = connection.CreateCommand())
 				{
 					user.Id = Guid.NewGuid();
+					Logger.Instance.Info("Add user, id: {0}, name: {1}", user.Id, user.Name);
 					command.CommandText = "insert into users (id, name) values (@id, @name)";
 					command.Parameters.AddWithValue("@id", user.Id);
 					command.Parameters.AddWithValue("@name", user.Name);

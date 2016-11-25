@@ -30,5 +30,12 @@ namespace Margatsni.WebApi.Controllers
 		{
 			return _dataLayer.GetUser(id);
 		}
+
+		[HttpDelete]
+		[Route("api/users/{id}")]
+		public void DeleteUsers(Guid id)
+		{
+			//todo: реализация удаления
+		}
 	}
 }
