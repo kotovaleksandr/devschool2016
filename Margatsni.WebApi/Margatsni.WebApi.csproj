@@ -116,6 +116,10 @@
       <Project>{5306162D-0697-4E64-BA0E-1B282A7B09D4}</Project>
       <Name>Margatsni.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Margatsni.Services\Margatsni.Services.csproj">
+      <Project>{A4405A4F-B6CF-416F-8C88-1AAFDB5C2258}</Project>
+      <Name>Margatsni.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -56,6 +56,10 @@
       <Project>{5306162d-0697-4e64-ba0e-1b282a7b09d4}</Project>
       <Name>Margatsni.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Margatsni.Services\Margatsni.Services.csproj">
+      <Project>{a4405a4f-b6cf-416f-8c88-1aafdb5c2258}</Project>
+      <Name>Margatsni.Services</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

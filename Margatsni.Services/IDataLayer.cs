@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Margatsni.Model;
 
-namespace Margatsni.Model
+namespace Margatsni.Services
 {
 	public interface IDataLayer
 	{
